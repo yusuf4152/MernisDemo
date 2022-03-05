@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<EasyWSDL>
+  <Info>
+    <Version>5.12.12.0</Version>
+    <AccountType>Basic</AccountType>
+    <LibrariesFolder>easywsdl</LibrariesFolder>
+    <MainClass>RVLKPSPublicSoap</MainClass>
+  </Info>
+  <Settings>
+    <Url>https://tckimlik.nvi.gov.tr/Service/KPSPublic.asmx?WSDL</Url>
+    <ClassPrefix/>
+    <PackageName>MernisReference</PackageName>
+    <AddDocumentation>false</AddDocumentation>
+    <EnableAdvancedFeatures>true</EnableAdvancedFeatures>
+    <EnableMTOM>false</EnableMTOM>
+    <EncodeIllegalCharacters>true</EncodeIllegalCharacters>
+    <GenerateAsyncOperations>false</GenerateAsyncOperations>
+    <ImplementSerializable>false</ImplementSerializable>
+    <ImplementParcelable>false</ImplementParcelable>
+    <AddAnyCollection>false</AddAnyCollection>
+    <DateTimeSupport>Default</DateTimeSupport>
+    <Repackage/>
+    <GenerateHtmlDocumentation>false</GenerateHtmlDocumentation>
+    <AddDataSetSupport>false</AddDataSetSupport>
+    <PlatformType>Java</PlatformType>
+    <Annotations>None</Annotations>
+    <AddLibraries>true</AddLibraries>
+    <GenerateGetSetMethods>false</GenerateGetSetMethods>
+    <DetectDictionaries>false</DetectDictionaries>
+  </Settings>
+  <Files>
+    <File>RVLDateTimeConverter.java</File>
+    <File>RVLExtendedSoapSerializationEnvelope.java</File>
+    <File>RVLHelper.java</File>
+    <File>RVLKPSPublicSoap.java</File>
+    <File>RVLKPSPublicSoap12.java</File>
+    <File>RVLMarshalGuid.java</File>
+    <File>RVLStandardDateTimeConverter.java</File>
+  </Files>
+  <Libraries>
+    <File>ExKsoap2-1.0.3.1.jar</File>
+    <File>ksoap2-android-assembly-3.6.4-jar-with-dependencies.jar</File>
+  </Libraries>
+</EasyWSDL>
